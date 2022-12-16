@@ -1,0 +1,47 @@
+title: '&8[&ePVP&6Toggle&8] '
+file-create-fail1: '&cCouldn''t create {filename} file.'
+file-create-fail2: '&cThis is a fatal error. Now disabling!'
+save-fail1: '&cFailed to save {filename}.'
+save-fail2: '&cReport this stack trace to Roopekoo.'
+Not-enough-parameters: '&cNot enough parameters!'
+too-many-parameters: '&cToo many parameters!'
+Incorrect-parameter: '&cIncorrect parameter!'
+no-permission: '&cYou do not have permission to do that!'
+incorrect-username: '&cIncorrect username!'
+username-missing: '&cPlease provide a username!'
+Force-pvp-on: '&6Force-&2enabled &eeverybody''s &2PVP!'
+Force-pvp-off: '&6Force-&4disabled &eeverybody''s &2PVP!'
+force-pvp-kill-protection-on: '&2Force-enabled everybody''s pvp-kill protection!'
+force-pvp-kill-protection-off: '&2Force-disabled everybody''s pvp-kill protection!'
+auto-pvp-off: '&eYour &aPVP has been switched &coff&a automatically!'
+pvp-on: '&e{pl}{s} &6PVP is &2enabled'
+pvp-off: '&e{pl}{s} &6PVP is &4disabled'
+pvp-already-on: '&e{pl}{s} &6PVP is already &2enabled&6!'
+pvp-already-off: '&e{pl}{s} &6PVP is already &4disabled&6!'
+protection-already-on: '&e{pl}{s} &6PVP-kill protection is already &2enabled!'
+protection-already-off: '&e{pl}{s} &6PVP-kill protection is already &4disabled!'
+pvp-remind-on: '&2Your &6PVP is &2enabled&6! &cWatch out for other blood thirsty players!'
+pvp-remind-off: '&2Your &6PVP is &4disabled&6! &aOther players cannot hurt you.'
+notify-force-pvp-on: '&2Your &6PVP has been force-&2enabled&6!'
+notify-force-pvp-off: '&2Your &6PVP has been force-&4disabled&6!'
+notify-force-pvp-kill-protection-on: '&2Your &6PVP-kill protection has been force-&2enabled&6!'
+notify-force-pvp-kill-protection-off: '&2Your &6PVP-kill protection has been force-&4disabled&6!'
+kill-protect-on: '&e{pl1}{s1} &6PVP will be set to &4OFF &6if &e{pl2} &6get{s2} killed
+  by another player.'
+kill-protect-off: '&e{pl1}{s1} &6PVP will stay &2ON &6if &e{pl2} &6get{s2} killed
+  by another player.'
+deny-attack: '&4You cannot hurt others! &e{pl}{s} &6PVP is not enabled!'
+deny-combat-pvp-off: '&cYou cannot turn your pvp &4off &cwhile you are on &4combat&c!'
+combat-on-title: '&cYou are in combat! You will be &4killed &cif you log off!'
+combat-on-time: '&cWait &6{t} &cto be able to log out safely.'
+combat-off: '&aYou are no longer in combat! You can log out &2safely.'
+combat-server-kill: '&4&lYou were killed because you logged off during combat!'
+reloaded: '&2Plugin reloaded!'
+your: Your
+you: you
+possessive-suffix: '''s'
+plural: s
+minute: minute
+minutes: minutes
+second: second
+seconds: seconds

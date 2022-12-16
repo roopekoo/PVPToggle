@@ -1,0 +1,55 @@
+name: PVPToggle
+version: '${project.version}'
+main: me.roopekoo.pvptoggle.PVPToggle
+api-version: 1.17
+authors: [ Roopekoo ]
+description: Sets player's own pvp ON or OFF
+
+commands:
+  pvp:
+    description: Set PVP for a player
+    usage: /pvp <on/off> [player]
+  pvpcheck:
+    description: Check PVP status of a player
+    usage: /pvpcheck <player>
+  pvpkillprotection:
+    description: If on, sets your pvp automatically to off to prevent spawn killing, otherwise pvp stays on
+    usage: /pvpkillprotection <on/off> [player]
+  pvpreload:
+    description: Reloads the plugin
+    usage: /pvpreload
+
+permissions:
+  pvptoggle.pvp:
+    description: Allows to use /pvp <on/off>
+    default: true
+  pvptoggle.pvp.bypass:
+    description: Allows to bypass timeout for toggling pvp
+    default: op
+  pvptoggle.pvp.others:
+    description: Allows to change other players pvp status /pvp <on/off> [player]
+    default: op
+  pvptoggle.pvp.others.all:
+    description: Allows to change everybody's pvp status /pvp <on/off> all
+    default: op
+  pvptoggle.pvpcheck:
+    description: Allows to check player's own pvp status /pvpcheck
+    default: true
+  pvptoggle.pvpcheck.others:
+    description: Allows to check other players pvp status /pvpcheck <player>
+    default: true
+  pvptoggle.protect:
+    description: Allows to set player's own protection on /pvpkillprotection <on/off>
+    default: true
+  pvptoggle.protect.others:
+    description: Allows to change other players protection /pvpkillprotection <on/off> [player]
+    default: op
+  pvptoggle.protect.others.all:
+    description: Allows to change every players pvp-kill protection status /pvpkillprotection <on/off> all
+    default: op
+  pvptoggle.pvpreload:
+    description: Allows to reload config /pvpreload
+    default: op
+  pvptoggle.combatlog.bypass:
+    description: Allows to bypass server killing on combat log out
+    default: op

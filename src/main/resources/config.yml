@@ -1,0 +1,6 @@
+MsgTimeout: 5000
+LoginReminderDelaySeconds: 10
+CombatLogOffWaitSeconds: 10
+CombatCooldownSeconds: 60
+DefaultPvpValue: false
+DefaultKillProtAfterDeath: true
